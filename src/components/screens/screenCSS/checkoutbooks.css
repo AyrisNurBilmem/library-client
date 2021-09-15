@@ -1,0 +1,32 @@
+.checkoutbook{
+    border-radius:100%;
+    border:none;
+    outline:none;
+
+    position:absolute;
+    margin-left:15px;
+    width:37px;
+    height:37px;
+
+    z-index:100px;
+
+    background-color:#9abfa1;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.checkoutbook:hover{
+    background-color: #5b8a72;
+}
+
+.checkoutbook:active{
+    transform: translateY(6px);
+    transition: 0.2s;
+}
+
+.img-class.ad:hover{
+    box-shadow:none;
+}

@@ -1,0 +1,29 @@
+.welcome.register{
+    padding-bottom:60px;
+}
+
+.complete-form-div.register{
+    padding-right:10px;
+    padding-left:60px;
+}
+
+.start-label.labelOne{
+    padding-right: 21px;
+}
+
+.start-label.labeltwo{
+    padding-right: 56px;
+}
+
+.start-label.labelthree{
+    padding-right: 27px;
+}
+
+.start-label.labelfour{
+    padding-right: 39px;
+}
+
+.register-link{
+    padding-left:10px;
+    font-weight: bolder;
+}

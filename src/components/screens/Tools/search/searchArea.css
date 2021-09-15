@@ -1,0 +1,12 @@
+.img-class__search{
+    padding-top:30px;
+    width:330px;
+    
+    filter:opacity(80%) grayscale(20%);
+    
+}
+
+.img-class__text{
+    color:rgba(128, 128, 128, 0.555);
+    font-weight: bold;
+}

@@ -1,0 +1,155 @@
+
+/*  **************************  TOP   ******************************    */
+.main-div{
+    color: black;
+    padding-bottom: 85px;
+   
+}
+
+.main-title{
+    font-size: 2rem;
+}
+
+.main-author{
+    font-size: 1rem;
+    margin-top: 1%;
+    font-style: italic;
+    color: #71a17a;
+}
+
+.line{
+    height:5px;
+    background-color: #5b8a72;
+    color: #5b8a72;
+    width:5%;
+    margin: auto;
+    margin-top: 1.75%
+
+}
+
+
+.eachbook-img{
+    height: 325px;
+    border:solid rgba(0, 0, 0, 0.048);
+    border-width: 1px;
+    transition: 0.4s;
+    margin: 4% auto;
+    margin-bottom: 2.5%;
+
+}
+
+
+.add-button{
+    border-radius: 40px;
+    padding: 10px;
+    padding-right: 5px;
+    padding-left: 23px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+    top: 17.5%;
+    left: 61%;
+    -webkit-transition: width 0.5s;
+
+    border: none;
+    outline:none;
+    background-color: #DA3539;
+    color:white;
+
+    font-size: 20px;
+    
+    cursor:pointer;
+    transition: 0.3s;
+
+}
+.view{
+    position: absolute;
+    top:25%;
+    padding-right: 5px;
+    padding-left: 23px;
+
+    background-color: #02475e;
+
+}
+
+.home{
+    position: absolute;
+    top:32.5%;
+   
+    padding-right: 5px;
+    padding-left: 23px;
+
+    background-color: #71a17a;
+}
+
+
+
+.add-button:active{
+    transform: translateY(4px);
+    transition: 0.4s;
+}
+
+.add-button-txt{
+
+}
+
+.add-button .add-button-txt{
+ max-width: 0;
+  display: inline-block;
+  -webkit-transition: color .15s .15s, max-width 2s;
+  transition: color .15s .15s, max-width 2s;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fff;
+
+  font-size: 15px;
+}
+.add-button:hover .add-button-txt {
+    border-radius: 100px;
+    max-width: 300px;
+    color: white;
+  }
+
+
+
+/*  **************************  BOTTOM   ******************************    */
+.sub-div{
+    color: black;
+    
+}
+
+.left-eachbook{
+    width: 65%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.left-eachbook-p-top{
+    font-weight: 900;
+    font-size: 1.15rem;
+    padding-bottom: 20px;
+}
+
+.left-eachbook-p-bottom{
+    line-height: 1.75;
+}
+
+.right-small{
+    display: inline-block;
+    margin-top:3%;
+    margin-bottom: 6%;
+    
+    font-weight: 800;
+    text-align: center;
+    color: #5b8a72;
+    padding: 25px;
+}
+
+.right-eachbook-tp{
+    padding: 12px;
+    color: #02475e;
+    align-items: top;
+}

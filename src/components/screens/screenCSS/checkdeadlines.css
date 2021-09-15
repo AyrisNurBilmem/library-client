@@ -1,0 +1,62 @@
+.all-h1.deadlines{
+    padding-top:0;
+}
+
+.grid-container.deadlines{
+    width:70%;
+}
+
+.img-class.deadlines{
+    float:left;
+}
+
+.text-div.deadlines{
+    float:right;
+    width:70%;
+}
+
+.text-div__para, .para-div{
+    width: 50%;
+    float:left;
+    
+}
+
+.para-div__text{
+    color:rgba(0, 0, 0, 0.562);
+    padding:9px;
+    font-weight: bold;
+}
+
+.para-div__text.name{
+    padding-top:30px;
+}
+
+.para-div__text.fine{
+    padding-bottom:35px;
+}
+
+
+.book-text.deadlines{
+    text-align: left;
+    padding:9px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.book-text.deadlines.name{
+    padding-top:30px;
+    color: #73aa7e;
+    font-weight: bolder;
+    
+}
+
+.book-text.deadlines.author,.book-text.deadlines.return, .para-div__text.author, .para-div__text.return{
+    padding-bottom:20px;
+}
+
+
+.book-text.deadlines.fine{
+    padding-bottom: 35px;
+    color:green;
+}
+

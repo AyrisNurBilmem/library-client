@@ -1,0 +1,35 @@
+.go-to-checkout{
+    color:rgb(86, 155, 112);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left:75%;
+    padding-top:35px;  
+    
+}
+
+.go-to-checkout__text{
+    text-decoration: none;
+    color:rgb(86, 155, 112);
+    transition: 0.4s ease-in-out;
+   
+}
+
+.arrow{
+    padding-left:10px;
+}
+
+
+.all-h1.yourbooks{
+    padding-top:0px;
+}
+
+
+.go-to-checkout__text:hover{
+    color:black;
+    transition: 0.4s ease-in-out;
+    
+}
+
+.go-to-checkout__text:active{
+    transform: translateY(4px);
+}
